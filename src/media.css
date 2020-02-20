@@ -1,0 +1,15 @@
+html { /* phone */
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 600px) {
+    html { /* tablet */
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html { /* desktop */
+        font-size: 17px;
+    }
+}

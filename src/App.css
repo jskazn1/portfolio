@@ -1,20 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url("https://use.typekit.net/cxb0imb.css"); /* For Proxima Nova*/
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 50px;
   display: flex;
   flex-direction: row;
@@ -25,19 +17,10 @@
 }
 
 .App-header a{
-  color: white;
+  color: #4A4A4A;
   margin: 0 25px;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

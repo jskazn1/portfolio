@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Contact(){
+function Resume(){
     return <div className="page">
-        <h1>Contact!</h1>
+        <h1>Resume!</h1>
     </div>
 }
 
-export default Contact
+export default Resume

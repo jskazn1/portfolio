@@ -4,7 +4,7 @@ import './media.css'
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
-import Contact from './pages/Contact'
+import Resume from './pages/Resume'
 
 function App() {
   return <BrowserRouter>
@@ -12,12 +12,12 @@ function App() {
       <header className="App-header">
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/Resume">Resume</Link>
       </header>
 
       <Route path="/" exact component={Home} />
       <Route path="/About" component={About} />
-      <Route path="/Contact" component={Contact} />
+      <Route path="/Resume" component={Resume} />
 
     </div>
   </BrowserRouter>

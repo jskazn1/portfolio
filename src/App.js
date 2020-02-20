@@ -7,12 +7,16 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 
 function App() {
+  
   return <BrowserRouter>
     <div className="App">
       <header className="App-header">
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Resume">Resume</Link>
+        <span>Jordan Kussmann</span>
+        <div className="header-links">
+          <Link to="/">Home</Link>
+          <Link to="/About">About</Link>
+          <Link to="/Resume">Resume</Link>
+        </div>
       </header>
 
       <Route path="/" exact component={Home} />

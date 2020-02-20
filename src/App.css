@@ -1,26 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url("https://use.typekit.net/cxb0imb.css"); /* For Proxima Nova*/
+@import url("https://use.typekit.net/cxb0imb.css"); /* For Proxima Nova */
 
+/* EXAMPLE:
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100; 
+*/
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 0 50px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-top: 0;
+}
 .App {
-  text-align: center;
   font-family: 'Proxima Nova', sans-serif;
 }
 
 .App-header {
-  min-height: 50px;
+  margin: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  font-size: calc(6px + 2vmin);
+  border: solid red 1px;
 }
 
 .App-header a{
   color: #4A4A4A;
   margin: 0 25px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+
+.project {
+  margin: 50px;
+  /* border: solid red 1px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+}
+
+.project-title {
+  color: #5A5BD9
+}
+
+.project img {
+  border: solid red 1px;
+}
+
+.selected-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

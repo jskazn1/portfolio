@@ -13,7 +13,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 100px;
+  color: #ffffff;
 }
 
 h3 {
@@ -29,41 +30,50 @@ h4 {
 }
 
 .App-header {
-  margin: 50px;
-  padding: 20px;
+  margin: 50px 100px 50px;
+  padding: 20px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-size: calc(6px + 2vmin);
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
 .App-header a{
-  color: #4A4A4A;
-  margin: 0 25px;
+  color: #ffffff;
+  margin: 0 0 0 25px;
   text-decoration: none;
 }
 
+.home-logo {
+  color: #ffffff;
+}
 
 .project {
-  margin: 50px;
-  /* border: solid red 1px; */
+  margin: 50px 0 0 0;
+  border: solid red 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 40vw;
+  min-width: 300px;
 }
 
 .project-title {
-  color: #5A5BD9
+  color: #2FE4B9;
+}
+
+.project-subtitle {
+  color: #ffffff;
 }
 
 .project img {
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
 .selected-projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

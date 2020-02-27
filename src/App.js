@@ -4,7 +4,6 @@ import './media.css'
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
-import Resume from './pages/Resume'
 
 function App() {
   
@@ -15,13 +14,12 @@ function App() {
         <div className="header-links">
           <Link to="/">Home</Link>
           <Link to="/About">About</Link>
-          <Link to="/Resume">Resume</Link>
+          <a href="https://drive.google.com/file/d/1_fPK_EsdY_h-GyvduUqIuLuo5tdwtIzy/view?usp=sharing" target="_blank">Resume</a>
         </div>
       </header>
 
       <Route path="/" exact component={Home} />
       <Route path="/About" component={About} />
-      <Route path="/Resume" component={Resume} />
 
     </div>
   </BrowserRouter>

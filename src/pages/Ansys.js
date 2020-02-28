@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Sage(){
+function Ansys(){
     return <div className="page">
-        <h2>Project 1 Sage</h2>
+        <h2>Project 1 Ansys</h2>
     </div>
 }
 
-export default Sage
+export default Ansys

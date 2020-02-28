@@ -19,6 +19,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -52,11 +53,24 @@ h4 {
 .project {
   margin: 50px 0 0 0;
   border: solid red 1px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40vw;
-  min-width: 300px;
+  flex:1;
+  max-width:550px;
+  min-width: 40rem;
+}
+
+.project-image{
+  border: solid red 1px;
+  background-color: white;
+  border-radius: 20px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 75%;
 }
 
 .project-title {
@@ -67,13 +81,11 @@ h4 {
   color: #ffffff;
 }
 
-.project img {
-  /* border: solid red 1px; */
-}
-
 .selected-projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
 }

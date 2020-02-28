@@ -4,6 +4,7 @@ import './media.css'
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
+import Projects from './pages/Projects'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
 
       <Route path="/" exact component={Home} />
       <Route path="/About" component={About} />
+      <Route path="/projects" component={Projects} />
 
     </div>
   </BrowserRouter>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 // import placeholder from '../images/placeholder-image.svg'
 import {BrowserRouter, Route, Link} from 'react-router-dom'
 import Sage from './Sage'
@@ -6,8 +6,12 @@ import Sage from './Sage'
 function Home(){
     
     return <div className="page">
-        <div className="intro-message">
-
+        <div className="intro">
+            <div className="intro-message">
+                Welcome, I'm Jordan. <br>
+                </br>I'm a <span className="emphasis">UX Product Designer</span> studying <br>
+                </br>HCI at the <span className="emphasis">University of Washington.</span>
+            </div>
         </div>
         <h2>Selected Projects</h2>
         <div className="selected-projects">
@@ -30,7 +34,7 @@ function Home(){
 }
 
 function Project(props) {
-    
+
     return <div className="project">
         <div>
             <Link to={"/projects/"+props.link}>       

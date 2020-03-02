@@ -28,6 +28,7 @@ h4 {
 }
 .App {
   font-family: 'Poppins', sans-serif;
+  background-color: #10405F;
 }
 
 .App-header {
@@ -38,6 +39,7 @@ h4 {
   justify-content: space-between;
   font-size: calc(6px + 2vmin);
   /* border: solid red 1px; */
+  font-size: 18px;
 }
 
 .App-header a{
@@ -48,6 +50,27 @@ h4 {
 
 .home-logo {
   color: #ffffff;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-message {
+  text-align: center;
+  margin: 200px;
+  font-family: "proxima-nova-condensed";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  color: #ffffff;
+  /* max-width: 50vw; */
+}
+
+.emphasis {
+  color: #2FE4B9;
 }
 
 .project {
@@ -88,4 +111,10 @@ h4 {
   flex-wrap: wrap;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.footer {
+  bottom: 0;
+  height: 430px;
+  background-color: #535353;
 }

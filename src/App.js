@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import './media.css'
 import {BrowserRouter, Route, Link} from 'react-router-dom'
@@ -7,7 +7,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 
 function App() {
-  
+
   return <BrowserRouter>
     <div className="App">
       <header className="App-header">
@@ -22,6 +22,10 @@ function App() {
       <Route path="/" exact component={Home} />
       <Route path="/About" component={About} />
       <Route path="/projects" component={Projects} />
+
+    <footer>
+      <h1>hi</h1>
+    </footer>
 
     </div>
   </BrowserRouter>

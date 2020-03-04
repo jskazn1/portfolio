@@ -9,11 +9,12 @@
 
 h1 {
   font-size: 3rem;
+  margin: auto;
 }
 
 h2 {
   font-size: 2rem;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 6.25%;
   color: #ffffff;
 }
 
@@ -28,24 +29,29 @@ h4 {
 }
 .App {
   font-family: 'Poppins', sans-serif;
-  background-color: #10405F;
 }
 
 .App-header {
-  margin: 50px 100px 50px;
+  margin: 3.12% 6.25% 3.12%;
   padding: 20px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-size: calc(6px + 2vmin);
   /* border: solid red 1px; */
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .App-header a{
   color: #ffffff;
   margin: 0 0 0 25px;
   text-decoration: none;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+  color: #2FE4B9;
+  text-underline-position: under;
 }
 
 .home-logo {
@@ -60,11 +66,11 @@ h4 {
 
 .intro-message {
   text-align: center;
-  margin: 200px;
+  margin: 12.5%;
   font-family: "proxima-nova-condensed";
   font-weight: 900;
   font-style: normal;
-  font-size: 48px;
+  font-size: 2.5rem;
   color: #ffffff;
   /* max-width: 50vw; */
 }
@@ -80,9 +86,6 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex:1;
-  max-width:550px;
-  min-width: 40rem;
 }
 
 .project-image{
@@ -105,16 +108,39 @@ h4 {
 }
 
 .selected-projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-left: 100px;
-  margin-right: 100px;
+  display: grid;
+  grid-column-gap: 100px;
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+  justify-items: space-between;
 }
 
-.footer {
+footer {
+  margin-top: 6.25%;
+  padding-bottom: 6.25%;
   bottom: 0;
-  height: 430px;
+  height: 30vh;
   background-color: #535353;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-category {
+  margin-left: 6.25%;
+  padding-top: 6.25%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h3 {
+  margin-top: 0;
+}
+
+footer h2, a {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-left: 0;
+  color: #ffffff;
+  text-decoration: none;
 }

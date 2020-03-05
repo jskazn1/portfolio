@@ -97,7 +97,7 @@ h4 {
   /* border: solid red 1px; */
   background-color: white;
   border-radius: 20px;
-  background-position: center center;
+  /* background-position: center center; */
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;

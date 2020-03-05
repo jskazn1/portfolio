@@ -1,0 +1,20 @@
+.about-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+  color: #ffffff;
+}
+
+.about-image {
+  padding-top: 115.7%;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-filter: sepia(50%);
+}
+
+p {
+  font-size: 1.2rem;
+}

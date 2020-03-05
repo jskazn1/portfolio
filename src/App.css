@@ -44,8 +44,13 @@ h4 {
 
 .App-header a{
   color: #ffffff;
-  margin: 0 0 0 25px;
   text-decoration: none;
+}
+
+.header-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
 }
 
 .header-links a:hover {
@@ -81,7 +86,7 @@ h4 {
 
 .project {
   margin: 50px 0 0 0;
-  border: solid red 1px;
+  /* border: solid red 1px; */
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -89,7 +94,7 @@ h4 {
 }
 
 .project-image{
-  border: solid red 1px;
+  /* border: solid red 1px; */
   background-color: white;
   border-radius: 20px;
   background-position: center center;
@@ -125,10 +130,18 @@ footer {
   flex-direction: row;
 }
 
-.footer-category {
+.footer-category-grid, .footer-category-flex {
   margin-left: 6.25%;
   padding-top: 6.25%;
   color: #ffffff;
+}
+
+.footer-content-grid {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+}
+
+.footer-content-flex {
   display: flex;
   flex-direction: column;
 }
@@ -143,4 +156,9 @@ footer h2, a {
   margin-left: 0;
   color: #ffffff;
   text-decoration: none;
+}
+
+.page-project {
+  height: 100%;
+  background-color: #ffffff;
 }

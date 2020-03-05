@@ -10,7 +10,7 @@ function Home(){
             <div className="intro-message">
                 Welcome, I'm Jordan. <br>
                 </br>I'm a <span className="emphasis">UX Product Designer</span> studying <br>
-                </br>HCI at the <span className="emphasis">University of Washington.</span>
+                </br>HCI at the <span className="emphasis">University of Washington</span>.
             </div>
         </div>
         <h2>Selected Projects</h2>

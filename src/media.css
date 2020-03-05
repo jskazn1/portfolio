@@ -6,8 +6,6 @@ html { /* phone */
 @media only screen and (min-width: 600px) {
     html { /* tablet */
         font-size: 15px;
-        background-color: #10405F;
-
     }
 
     .selected-projects {
@@ -19,14 +17,12 @@ html { /* phone */
 @media only screen and (min-width: 768px) {
     html { /* desktop */
         font-size: 17px;
-        background-color: #10405F;
     }
 }
 
 @media only screen and (min-width: 991px) {
-    html { /* desktop */
-        font-size: 17px;
-        background-color: #10405F;
+    html { /* desktop */ 
+        
     }
 
     .selected-projects {

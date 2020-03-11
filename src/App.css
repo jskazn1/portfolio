@@ -113,10 +113,6 @@ h4 {
   color: #2FE4B9;
 }
 
-.project-subtitle {
-  font-weight: 300;
-}
-
 .project-subtitle, .project-description {
   color: #ffffff;
   width: 100%;
@@ -124,6 +120,7 @@ h4 {
 
 .project-description {
   margin-bottom: 2rem;
+  font-weight: 300;
 }
 
 .selected-projects {

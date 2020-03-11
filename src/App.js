@@ -17,7 +17,7 @@ function App() {
         <div className="header-links">
           <Link to="/">Home</Link>
           <Link to="/About">About</Link>
-          <a href="https://drive.google.com/file/d/1_fPK_EsdY_h-GyvduUqIuLuo5tdwtIzy/view?usp=sharing" target="_blank">Resume</a>
+          <a href="https://drive.google.com/file/d/1_fPK_EsdY_h-GyvduUqIuLuo5tdwtIzy/view?usp=sharing" target="_blank">Résumé</a>
         </div>
       </header>
 

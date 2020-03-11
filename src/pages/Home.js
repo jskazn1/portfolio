@@ -18,28 +18,36 @@ function Home(){
             <Project 
                 title="Sage Bionetworks"
                 subtitle="UX Design Internship • Summer '19"
-                description="N/A "
+                description="Undertook user research and design for a design system allowing scientists
+                            and researchers to efficiently develop digital health mobile applications 
+                            for reliable data collection."
                 image={'/images/sage-project-logo.jpg'}
                 link="sage"
             />
             <Project 
                 title="ANSYS, Inc."
                 subtitle="UX Design Internship • Fall '19"
-                description="N/A "
+                description="Improved user experience for an unreleased engineering simulation product 
+                            set for release in 2020. Worked on iconography, tool workflows, microinteractions, 
+                            and videos."
                 image={'/images/ansys-project-logo.jpg'}
                 link="ansys"
             />
              <Project 
                 title="Sage Bionetworks"
                 subtitle="UX Design Internship • Summer '19"
-                description="N/A"
+                description="Undertook user research and design for a design system allowing scientists
+                            and researchers to efficiently develop digital health mobile applications 
+                            for reliable data collection."
                 image={'/images/sage-project-logo.jpg'}
                 link="sage"
             />
             <Project 
                 title="ANSYS, Inc."
                 subtitle="UX Design Internship • Fall '19"
-                description="N/A"
+                description="Improved user experience for an unreleased engineering simulation product 
+                            set for release in 2020. Worked on iconography, tool workflows, microinteractions, 
+                            and videos."
                 image={'/images/ansys-project-logo.jpg'}
                 link="ansys"
             />

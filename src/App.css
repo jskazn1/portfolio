@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap');
 @import url("https://use.typekit.net/cxb0imb.css"); /* For Proxima Nova */
 
 /* EXAMPLE:
@@ -20,15 +20,20 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 h4 {
   font-size: 1rem;
   margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 .App {
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  word-break: break-all;
+  word-wrap: break-word;  
+  hyphens: auto;
 }
 
 .App-header {
@@ -99,7 +104,7 @@ h4 {
   border-radius: 20px;
   /* background-position: center center; */
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100%;
   padding-top: 75%;
 }
@@ -109,7 +114,12 @@ h4 {
 }
 
 .project-subtitle {
+  font-weight: 300;
+}
+
+.project-subtitle, .project-description {
   color: #ffffff;
+  width: 100%;
 }
 
 .selected-projects {
@@ -118,6 +128,7 @@ h4 {
   margin-left: 6.25%;
   margin-right: 6.25%;
   justify-items: space-between;
+  align-items: start;
 }
 
 footer {

@@ -17,16 +17,30 @@ function Home(){
         <div className="selected-projects">
             <Project 
                 title="Sage Bionetworks"
-                subtitle="UX Design Internship"
-                // description="N/A"
-                image={'/images/placeholder-image.svg'}
+                subtitle="UX Design Internship • Summer '19"
+                description="N/A "
+                image={'/images/sage-project-logo.jpg'}
                 link="sage"
             />
             <Project 
                 title="ANSYS, Inc."
-                subtitle="UX Design Internship"
-                // description="N/A"
-                image={'/images/placeholder-image.svg'}
+                subtitle="UX Design Internship • Fall '19"
+                description="N/A "
+                image={'/images/ansys-project-logo.jpg'}
+                link="ansys"
+            />
+             <Project 
+                title="Sage Bionetworks"
+                subtitle="UX Design Internship • Summer '19"
+                description="N/A"
+                image={'/images/sage-project-logo.jpg'}
+                link="sage"
+            />
+            <Project 
+                title="ANSYS, Inc."
+                subtitle="UX Design Internship • Fall '19"
+                description="N/A"
+                image={'/images/ansys-project-logo.jpg'}
                 link="ansys"
             />
         </div>
@@ -44,7 +58,7 @@ function Project(props) {
             </Link>
             <h3 className="project-title">{props.title}</h3>
             <h4 className="project-subtitle">{props.subtitle}</h4>
-            {props.description}
+            <h4 className="project-description">{props.description}</h4>
         </div>
 
         <Route path="/Sage" component={Sage} />
